@@ -8,7 +8,7 @@ import '../css/page.css';
 class AppComponents extends React.Component{
     render(){
         return(
-            <Heading />
+            <Heading myname="Dipanshu" />
         );
     }
 }
