@@ -52,12 +52,13 @@ module.exports = {
             //     })
             // }
         ]
-    },
-    plugins:[
-        // new ExtractTextPlugin({
-        //     filename: '../css/style.css',
-        //     allChunks:true,
-        //     disable: process.env.NODE_ENV === "development"
-        // })
-    ]
+    }
+    // ,
+    // plugins:[
+    //     new ExtractTextPlugin({
+    //         filename: '../css/style.css',
+    //         allChunks:true,
+    //         disable: process.env.NODE_ENV === "development"
+    //     })
+    // ]
 };
