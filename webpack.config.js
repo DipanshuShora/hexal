@@ -1,7 +1,6 @@
 const path = require('path');
 const DIST = path.resolve(__dirname,'dist');
 const SRC = path.resolve(__dirname,'src');
-// const ExtractTextPlugin = require('extract-text-webpack-plugin');
 module.exports = {
     entry: SRC + '/app/index.js',
     output: {
@@ -32,33 +31,6 @@ module.exports = {
                     "less-loader"
                 ]
             }
-            // {
-            //     test: /\.css$/,
-            //     use: ExtractTextPlugin.extract({
-            //         fallback: 'style-loader',
-            //         use: ['css-loader'],
-            //         publicPath: '/css/'
-            //     })
-            // },
-            // {
-            //     test: /\.less$/,
-            //     use: ExtractTextPlugin.extract({
-            //         fallback: 'style-loader',
-            //         use : [
-            //             'css-loader',
-            //             'less-loader'
-            //         ],
-            //         publicPath: '/css/'
-            //     })
-            // }
         ]
     }
-    // ,
-    // plugins:[
-    //     new ExtractTextPlugin({
-    //         filename: '../css/style.css',
-    //         allChunks:true,
-    //         disable: process.env.NODE_ENV === "development"
-    //     })
-    // ]
 };
