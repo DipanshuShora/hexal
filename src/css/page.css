@@ -2,5 +2,9 @@ body{
     padding: 0;
     margin: 0;
     box-sizing: content-box;
-    background-color: #dddddd;
+    background: url('../image/justice.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

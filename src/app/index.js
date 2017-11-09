@@ -3,12 +3,13 @@ import ReactDOM from 'react-dom';
 
 import {Heading} from './components/heading.js';
 
+import '../css/bootstrap.min.css';
 import '../css/page.css';
 
 class AppComponents extends React.Component{
     render(){
         return(
-            <Heading myname="Dipanshu" />
+            <Heading dc="Justice League" />
         );
     }
 }

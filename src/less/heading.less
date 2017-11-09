@@ -1,11 +1,13 @@
-@heading-color: dodgerblue;
-.head{
-  color: @heading-color;
-  font-family: "Browallia New", sans-serif;
-  text-align: center;
-  .para{
-    color: magenta;
-    font-size: 20px;
-    text-align: center;
+@heading-color: #4679a8;
+@bg-color: rgba(0,0,0,0.1);
+@shadow: dodgerblue;
+.container{
+  margin-top: 20%;
+  .jumbotron{
+    background: @bg-color;
+    .head{
+      color: @heading-color;
+      text-shadow: 2px 2px 8px @shadow;
+    }
   }
 }
